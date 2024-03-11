@@ -1,0 +1,6 @@
+alarm_clock_enabled=1
+stop_hour=20
+initial_volume=30
+volume_increment_enabled=1
+volume_increment_interval_seconds=5
+music_folder_path=C:\Users\
