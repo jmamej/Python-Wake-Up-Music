@@ -24,9 +24,9 @@ music_folder_path=C:\\Users\\My\\myMusic (use double backslash '\\')
 
 Author: JMamej
 
-Date: 11.03.2024
+Date: 28.10.2024
 
-Version: 0.1
+Version: 0.2
 """
 
 import os, time, random, sys
@@ -47,6 +47,9 @@ volume_increment_interval_seconds = None
 error_sleep_time = 10
 max_volume_level = 0.99
 volume_increment_step = 0.01
+
+# Change the current working directory to the script's directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Read data from script_data.txt with error handling
 try:
